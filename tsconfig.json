@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "target": "es6",
+    "sourceMap": true,
+    "declaration": true,
+    "incremental": false,
+    "lib": [
+      "ES6", "ES2021", "ES2022"
+    ],
+    "allowJs": true,
+    "outDir": "dist",
+    "declarationDir": "types"
+  },
+  "include": [
+    "data",
+    "lib"
+  ],
+  "exclude": [
+    "backup", "dist", "package.json", "tsconfig.json", "types"
+  ]
+}

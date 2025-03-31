@@ -1,0 +1,31 @@
+{
+  "name": "@tendrock/vanilla-data",
+  "version": "0.1.0-alpha",
+  "main": "dist/data/index.js",
+  "description": "A vanilla data lib under the Tendrock system for Minecraft Bedrock Script API",
+  "scripts": {
+    "tsc-vanilla-data": "tsc",
+    "publish-latest": "npm publish --access public --tag latest"
+  },
+  "files": [
+    "dist",
+    "types",
+    "tsconfig.json",
+    "!**/*.test.*",
+    "!**/test/**"
+  ],
+  "keywords": [
+    "Minecraft",
+    "Bedrock",
+    "Addon",
+    "Script API",
+    "Lib",
+    "Tendrock"
+  ],
+  "types": "types/data",
+  "author": "QianShanyao",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
