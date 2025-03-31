@@ -1,6 +1,6 @@
 {
   "name": "@tendrock/vanilla-data",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0-alpha.1.21.70-stable.1",
   "main": "dist/data/index.js",
   "description": "A vanilla data lib under the Tendrock system for Minecraft Bedrock Script API",
   "scripts": {
